@@ -1,0 +1,23 @@
+{
+  "name": "deployscratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.726.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "exact-math": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.11",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
