@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:lambda": "netlify-lambda serve src/lambda",
-    "build:lambda": "netlify-lambda build src/lambda"
+    "start": "netlify-lambda serve src/lambda",
+    "build": "netlify-lambda build src/lambda"
   },
   "keywords": [],
   "author": "",
