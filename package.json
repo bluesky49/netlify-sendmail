@@ -19,5 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "nodemailer": "^6.4.11",
     "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1"
   }
 }
